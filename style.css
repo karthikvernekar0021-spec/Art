@@ -1233,6 +1233,7 @@ h2 em {
     display: flex;
     flex-direction: column;
     gap: 50px;
+     
   }
 
   .intro-copy,
@@ -1244,3 +1245,38 @@ h2 em {
   .intro-copy p,
   .about-content .light-muted,
   .commission-content 
+  .featured-image,
+  .hero-artwork,
+  .hero-visual {
+    height: auto !important;
+    min-height: 0 !important;
+    aspect-ratio: auto !important;
+    overflow: visible !important;
+    background: transparent !important;
+  }
+
+  .featured-image img,
+  .hero-artwork img,
+  .hero-visual img {
+    display: block;
+    width: 100%;
+    height: auto !important;
+    max-height: none !important;
+    object-fit: contain !important;
+  }
+   /* Featured Study original image fix */
+  .hero-image {
+    height: auto !important;
+    min-height: 0 !important;
+    aspect-ratio: auto !important;
+    overflow: visible !important;
+    background: transparent !important;
+  }
+
+  .hero-image img {
+    display: block;
+    width: 100%;
+    height: auto !important;
+    max-height: none !important;
+    object-fit: contain !important;
+  }
