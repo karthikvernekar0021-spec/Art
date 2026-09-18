@@ -1272,6 +1272,7 @@ h2 em {
     overflow: visible !important;
     background: transparent !important;
   }
+   
 
   .hero-image img {
     display: block;
@@ -1279,4 +1280,28 @@ h2 em {
     height: auto !important;
     max-height: none !important;
     object-fit: contain !important;
+  }
+   .qr-section {
+    text-align: center;
+    padding: 60px 20px;
+    background: #f3f0e8;
+    color: #111;
+  }
+
+  .qr-section h2 {
+    font-family: "Playfair Display", serif;
+    font-size: 2rem;
+    margin-bottom: 10px;
+  }
+
+  .qr-section p {
+    color: #666;
+    margin-bottom: 25px;
+  }
+
+  .heart-qr {
+    display: block;
+    width: min(280px, 80vw);
+    height: auto;
+    margin: 0 auto;
   }
