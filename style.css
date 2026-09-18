@@ -1299,9 +1299,4 @@ h2 em {
     margin-bottom: 25px;
   }
 
-  .heart-qr {
-    display: block;
-    width: min(280px, 80vw);
-    height: auto;
-    margin: 0 auto;
-  }
+  
